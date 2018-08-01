@@ -1,0 +1,99 @@
+.border{
+	border-style:inset;
+	width:100%;
+}
+
+.nav{
+	background-color: #42f4e2;
+	height:8vh;
+	display: flex;
+}
+
+.opt{
+	text-decoration: none;
+	color:#454744;
+	padding:0vh 1.5vh; 
+	font-size: 2em;
+}
+
+#active{
+	text-decoration: underline;
+	color: black;
+}
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+
+.dropbtn{
+	color:#454744;
+	background-color: #42f4e2;
+	padding:0vh 1.5vh;
+	font-size: 2em;
+	border:none;
+	font-weight: normal;
+}
+
+.content{
+	position: absolute;
+}
+
+.link{
+	position: relative;
+}
+
+.content .link{
+	background-color: #42f4a7;
+	color:#454744; 
+	text-decoration: none;
+	display:block;
+}
+
+.link{
+	height: 4vh;
+	width: 10vw;
+	padding: 20px;
+
+}
+
+.modalbtn{
+	height: 8vh;
+	width: 20vw;
+	border:none;
+	background-color: blue;
+	border-radius: 10%;
+	font-size: 1em;
+	color: white;
+}
+
+.modal{
+	height: 35vh;
+	width: 40vw;
+	border:solid;
+	border-width: 2px;
+	position: fixed;
+	background-color: black;
+	color: white;
+	top:0;
+	left: 30%;
+}
+
+.btn{
+	height: 40px;
+	width:80px;
+	border:none;
+	background-color: blue;
+	border-radius: 10%;
+	font-size: 1em;
+	color: white;
+}
+
+@media screen and (min-width:300px) and (max-width: 500px){
+	.nav{
+		display: flex;
+		flex-direction: column;
+		height: 30vh;
+	}
+}
+
